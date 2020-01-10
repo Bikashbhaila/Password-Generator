@@ -55,7 +55,7 @@ function generatePassword(lower, upper, number, symbol, inputLength) {
     const finalPassword = generatedPassword.slice(0, inputLength);
     console.log(finalPassword.length);
     console.log(finalPassword);
-    alert("Your passord is" + finalPassword);
+    alert("Your passord is " + finalPassword);
     return finalPassword;
  }
    
