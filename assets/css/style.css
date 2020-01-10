@@ -1,0 +1,19 @@
+.header{
+    width:100%;
+    float: center;
+}
+
+
+
+.content{
+    margin-top: 10px;
+    margin-bottom:10px;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+#display{
+    width: 100%;
+    
+}

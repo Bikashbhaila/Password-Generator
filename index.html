@@ -6,13 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Password Generator</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script src="./script.js"></script>
 </head>
 <body>
+
+    <div class = "header">
+        <h1>Password Generator</h1>
+    </div>
+
+    <div class = "container">
+
+        <div class="row">
+
+            <div class="col-lg-8 col-sm-12 mx-auto">
+
+                <div class = "content">
+                    <h2>Generate a Password</h2>    
+                    <br />                  
+                    <textarea id="display" type="text" style="height:150px" placeholder="Your Secure Password"></textarea>
+                    <br />
+                    <button onclick="generatePassword()">Generate Password</button>
+                    <button onclick="">Copy to Clipboard</button>
+                </div>      
+
+            </div>   
+        </div>   
+
+    </div>
+
 
     
 
 
-<script src="./script.js"></script>
+    
+
+
+
 </body>
 </html>
